@@ -1,5 +1,5 @@
 # FATEK-PLC-Python
-The examples for controlling FATEK PLC are available
+The examples is to control FATEK-PLC and make mortor rotate at different angles.  
 
 ## Installation:
 
