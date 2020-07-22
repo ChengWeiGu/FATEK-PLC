@@ -36,7 +36,7 @@ class ConfigParameters:
         self.mbid = int(parameters['mbid'])
         
         #Control
-        self.angles = [100*int(ang) for ang in parameters['angles'].split(',')]
+        self.angles = [int(ang) for ang in parameters['angles'].split(',')]
         self.motor_rot_speed = int(parameters['motor_rot_speed'])
         
         
